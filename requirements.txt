@@ -2,4 +2,3 @@ pandas
 wordcloud
 plotly
 Pillow
-PIL
