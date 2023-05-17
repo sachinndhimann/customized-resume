@@ -1,19 +1,13 @@
 import streamlit as st
 from PIL import Image
 from streamlit.components.v1 import html
-from bokeh.plotting import figure
-from bokeh.models import ColumnDataSource, Label, LabelSet, Range1d
 from datetime import datetime
 import plotly.graph_objects as go
-import altair as alt
 import pandas as pd
-from fpdf import FPDF
 import base64
 import timeline
 import preprocess
-#from color import custom_progress_bar
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
 
 def generate_box(text,color):
     st.markdown(
