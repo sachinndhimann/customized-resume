@@ -3,6 +3,7 @@ from PIL import Image
 from streamlit.components.v1 import html
 from datetime import datetime
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 import pandas as pd
 import base64
 import timeline
