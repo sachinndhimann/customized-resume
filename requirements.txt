@@ -2,3 +2,5 @@ pandas
 wordcloud
 plotly
 Pillow
+openpyxl
+matplotlib
